@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Terraform init'){
             steps{
-                sh('terraform init --reconfigure')
+                sh('terraform init -input=false -migrate-state -force-copy')
             }
         }
         stage('Action'){
