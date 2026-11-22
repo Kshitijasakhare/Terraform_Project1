@@ -12,7 +12,7 @@ resource "aws_instance" "Inst1" {
   }
 }
 resource "aws_s3_bucket" "buck1" {
-  bucket = "kshitij134748917507"
+  bucket = "kshitijaatul134748917507"
 
   tags = {
     Name = "buck1"

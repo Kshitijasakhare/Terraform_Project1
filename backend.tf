@@ -1,13 +1,14 @@
-
+/*
 terraform {
   backend "s3" {
-    bucket       = "kshitij134748917507"
+    bucket       = "kshitija134748917507"
     key          = "jenkins-project/terraform.tfstate"
     region       = "ap-south-1"
     encrypt      = true
     use_lockfile = true
   }
 }
+*/
 
 
 /*
